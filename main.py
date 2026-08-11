@@ -23,9 +23,6 @@ vel_objetivo_x = 2.0
 
 fov_objetivo = 40.0
 
-cam_offset_seleccion = Vec3(4, 0, -10)
-cam_rotacion_seleccion = Vec3(0, 0, 0)
-
 nodo_seleccionado = None
 
 control_camara = False
@@ -35,9 +32,6 @@ cam_destino = Vec3(0, 0, -30)
 cam_mirada = Vec3(0, 0, 0)
 
 centro_grafo = Entity()
-
-editor_camera = None
-
 
 def posicion_centro_ia():
     if "Núcleo IA" in diccionario_nodos:
